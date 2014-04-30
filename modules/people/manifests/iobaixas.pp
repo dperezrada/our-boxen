@@ -8,7 +8,6 @@ class people::iobaixas {
   	include googledrive
   	include iterm2::stable
 	include sublime_text_2
-  	include postgresql
 
 	class { 'pow':
 		domains => 'pow'
