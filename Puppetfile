@@ -112,6 +112,7 @@ github "mumble",                "1.0.5"
 ## postgresql
 github "sysctl",                "1.0.1"
 github "postgresql",            "3.0.1"
+github "pgadmin3",              "1.1.0", :repo => "platanus/puppet-pgadmin3"
 
 #wkhtmltopdf
 github "wkhtmltopdf",           "1.2.1"

@@ -60,6 +60,7 @@ class platanus::environment{
 
   # Development Tools
   include sequel_pro
+  include pgadmin3
   package { 'chromedriver': }
 
   # Communication
