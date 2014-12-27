@@ -1,4 +1,4 @@
-class platanus::environment{
+class imetricas::environment{
 
   # Global versions
   $node_global = '0.10'
@@ -82,6 +82,7 @@ class platanus::environment{
 
   # Development Tools
   include sequel_pro
+  include docker
   #include pgadmin3
   package { 'chromedriver': }
 

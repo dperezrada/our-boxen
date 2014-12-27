@@ -64,7 +64,7 @@ node default {
   #}
 
   # Custom modules
-  include platanus::environment
+  include imetricas::environment
 
   # common, useful packages
   package {
