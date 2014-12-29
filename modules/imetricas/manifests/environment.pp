@@ -82,7 +82,7 @@ class imetricas::environment{
 
   # Development Tools
   include sequel_pro
-  include docker
+  #include docker
   #include pgadmin3
   package { 'chromedriver': }
 

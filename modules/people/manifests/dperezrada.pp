@@ -14,7 +14,7 @@ class people::dperezrada {
   #include vagrant
   #include virtualbox
   include sublime_text
-  include docker
+  #include docker
 
   # NPM Packages
   #nodejs::module { 'yo for 0.10':
