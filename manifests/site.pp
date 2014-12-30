@@ -70,9 +70,16 @@ node default {
   package {
     [
       'ack',
-      'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'gawk'
     ]:
+  }
+  package {
+    'coreutils':
+      ensure => present,
+      install_options => [
+        '--default-names',
+      ]
   }
 
   file { "${boxen::config::srcdir}/our-boxen":

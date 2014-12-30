@@ -95,8 +95,9 @@ github "hipchat",               "1.1.3"
 #  :ref => "pow-0.5.0"
 github "spotify",               "1.0.2"
 github "prezto",                "1.0.1", :repo => "archfear/puppet-prezto"
-#github "pgadmin3",              "1.0.0"
-#github "redis",                 "3.1.0"
+github "menumeters",            "1.0.1", :repo => "Vodeclic/puppet-menumeters"
+#github "pgadmin3",             "1.0.0"
+#github "redis",                "3.1.0"
 
 ## PHP module
 #github "php",                   "1.2.6"
@@ -109,7 +110,7 @@ github "wget",                  "1.0.1"
 #github "pcre",                  "1.0.0"
 
 #github "libpng",                "1.0.0"
-github "caffeine",              "1.0.0"
+#github "caffeine",              "1.0.0"
 #github "mumble",                "1.0.5"
 
 ## postgresql
@@ -120,4 +121,6 @@ github "caffeine",              "1.0.0"
 #github "wkhtmltopdf",           "1.2.1"
 #github "screenhero",            "1.0.1"
 
-#github "docker",            "0.8.0"
+github "docker",            "0.8.0"
+github "skitch",            "1.0.3"
+

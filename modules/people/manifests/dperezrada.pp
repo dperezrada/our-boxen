@@ -8,13 +8,15 @@ class people::dperezrada {
   include textual
   include vlc
   include spectacle
-  include caffeine
+  #include caffeine
   include dropbox
   include skype
   #include vagrant
-  #include virtualbox
+  include virtualbox
   include sublime_text
-  #include docker
+  include docker
+  include menumeters
+  include skitch
 
   # NPM Packages
   #nodejs::module { 'yo for 0.10':

@@ -6,6 +6,11 @@ GIT
     platnaus-nodejs (0.0.1)
 
 GITHUBTARBALL
+  remote: Vodeclic/puppet-menumeters
+  specs:
+    menumeters (1.0.1)
+
+GITHUBTARBALL
   remote: archfear/puppet-prezto
   specs:
     prezto (1.0.1)
@@ -26,11 +31,6 @@ GITHUBTARBALL
     boxen (3.9.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-caffeine
-  specs:
-    caffeine (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.2.0)
@@ -44,6 +44,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-docker
+  specs:
+    docker (0.8.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
@@ -136,6 +141,11 @@ GITHUBTARBALL
     sequel_pro (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skitch
+  specs:
+    skitch (1.0.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
     skype (1.0.9)
@@ -214,10 +224,10 @@ DEPENDENCIES
   alfred (= 1.1.8)
   better_touch_tools (= 3.0.0)
   boxen (= 3.9.0)
-  caffeine (= 1.0.0)
   chrome (= 1.2.0)
   clipmenu (= 1.0.0)
   dnsmasq (= 2.0.1)
+  docker (= 0.8.0)
   dropbox (= 1.4.1)
   gcc (= 2.2.0)
   git (= 2.7.0)
@@ -229,6 +239,7 @@ DEPENDENCIES
   inifile (= 1.1.1)
   iterm2 (= 1.2.2)
   java (= 1.7.1)
+  menumeters (= 1.0.1)
   module_data (= 0.0.3)
   openssl (= 1.0.0)
   osx (= 2.7.0)
@@ -240,6 +251,7 @@ DEPENDENCIES
   repository (= 2.3.0)
   ruby (= 8.2.0)
   sequel_pro (= 1.0.1)
+  skitch (= 1.0.3)
   skype (= 1.0.9)
   spectacle (= 1.0.0)
   spotify (= 1.0.2)
