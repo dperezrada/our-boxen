@@ -17,6 +17,8 @@ class people::dperezrada {
   include docker
   include menumeters
   include skitch
+  include crashplan
+  include appcleaner
 
   # NPM Packages
   #nodejs::module { 'yo for 0.10':

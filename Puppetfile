@@ -123,4 +123,7 @@ github "wget",                  "1.0.1"
 
 github "docker",            "0.8.0"
 github "skitch",            "1.0.3"
+github "appcleaner",         "1.0.0"
 
+github "wget",            "1.0.1"
+github "crashplan",            "1.0.3", :repo => "scottylogan/puppet-crashplan"
