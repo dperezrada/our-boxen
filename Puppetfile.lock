@@ -36,6 +36,11 @@ GITHUBTARBALL
     boxen (3.9.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.2.0)
@@ -106,6 +111,11 @@ GITHUBTARBALL
     java (1.7.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-libtool
+  specs:
+    libtool (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -114,6 +124,11 @@ GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
     osx (2.7.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-pcre
+  specs:
+    pcre (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -235,6 +250,7 @@ DEPENDENCIES
   appcleaner (= 1.0.0)
   better_touch_tools (= 3.0.0)
   boxen (= 3.9.0)
+  caffeine (= 1.0.0)
   chrome (= 1.2.0)
   clipmenu (= 1.0.0)
   crashplan (= 1.0.3)
@@ -251,11 +267,14 @@ DEPENDENCIES
   inifile (= 1.1.1)
   iterm2 (= 1.2.2)
   java (= 1.7.1)
+  libtool (= 1.0.0)
   menumeters (= 1.0.1)
   module_data (= 0.0.3)
   openssl (= 1.0.0)
   osx (= 2.7.0)
+  pcre (= 1.0.0)
   phantomjs (= 2.3.0)
+  pkgconfig (= 1.0.0)
   pkgconfig (= 1.0.0)
   platnaus-nodejs (>= 0)
   prezto (= 1.0.1)

@@ -104,13 +104,12 @@ github "menumeters",            "1.0.1", :repo => "Vodeclic/puppet-menumeters"
 
 github "wget",                  "1.0.1"
 
-#?
-#github "libtool",               "1.0.0"
-#github "pkgconfig",             "1.0.0"
-#github "pcre",                  "1.0.0"
+github "libtool",               "1.0.0"
+github "pkgconfig",             "1.0.0"
+github "pcre",                  "1.0.0"
 
 #github "libpng",                "1.0.0"
-#github "caffeine",              "1.0.0"
+github "caffeine",              "1.0.0"
 #github "mumble",                "1.0.5"
 
 ## postgresql

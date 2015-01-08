@@ -8,7 +8,7 @@ class people::dperezrada {
   include textual
   include vlc
   include spectacle
-  #include caffeine
+  include caffeine
   include dropbox
   include skype
   #include vagrant
@@ -19,6 +19,8 @@ class people::dperezrada {
   include skitch
   include crashplan
   include appcleaner
+  include spotify
+  include imagemagick
 
   # NPM Packages
   #nodejs::module { 'yo for 0.10':
@@ -60,6 +62,10 @@ class people::dperezrada {
     target  => $sublime_settings,
     require => Repository['Sublime Text Settings']
   }
+
+  package { 'unrar': }
+  package { 's3cmd': }
+  package { 'git-flow': }
 
   # Osx config
   include people::dperezrada::osx
